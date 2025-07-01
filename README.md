@@ -19,9 +19,9 @@ The dataset used in this project comes from the Titanic competition on Kaggle. I
 ## Methodology and Results
 
 The methodology that has been followe is: 
-- 1. Data Preprocessing: the unuseful data is removed and the null values are corrected. 
-- 2. Feature Engineering: the data is splitted into categorical variables (Pclass, Sex, Embarked), encoded using *Label Encoding*, and numerical variables (Age, Fare), scaled using *StandardScaler* to normalize the data.
-- 3. Model Training: the primary model used was a *Random Forest Classifier*, which is well-suited for this type of tabular data.
+1. Data Preprocessing: the unuseful data is removed and the null values are corrected. 
+2. Feature Engineering: the data is splitted into categorical variables (Pclass, Sex, Embarked), encoded using *Label Encoding*, and numerical variables (Age, Fare), scaled using *StandardScaler* to normalize the data.
+3. Model Training: the primary model used was a *Random Forest Classifier*, which is well-suited for this type of tabular data.
 
 The Random Forest model achieved an accuracy of approximately *81%* on the test set. Further improvements could involve additional feature engineering or experimenting with hyperparameter tuning.
 
@@ -42,9 +42,11 @@ pip install numpy pandas scikit-learn jupyter
 
 ## How to Use
 
-Clone the repository:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/JoseCDS17/CosmologicalPerturbations-TFG.git
-cd CosmologicalPerturbations-TFG
-```
+   ```bash
+   git clone https://github.com/JoseCDS17/CosmologicalPerturbations-TFG.git
+   cd CosmologicalPerturbations-TFG
+   ```
+
+2. Open and run the notebook *main.ipynb*.
